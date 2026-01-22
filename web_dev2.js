@@ -1,0 +1,68 @@
+let words2 = sentence2.split("a")
+console.log(words2)
+
+// Q1. find out the occurrence of "r" in the given string
+
+// let string = "tu meri main tera main teri tu mera";
+// let count = 0;
+
+// for (let i = 0; i < string.length; i++) {
+//     if (string[i] === 'r') {
+//         count++;
+//     }
+// }
+
+// console.log("Occurrence of 'r' =", count);
+
+let str = "tu meri main tera main teri tu mera";
+// let res = String.split("r")
+console.log(res);
+
+// regular function: needs return and function keyword. asynchronous in nature.
+function demo(){
+    console.log("this is demo function");
+}
+demo()
+
+function sample(){
+    console.log("this is sample function");
+}
+sample()
+
+// arrow function: does not need return and function keyword. and it will perform asynchronously.
+const test =(c,d) => 
+    c+d
+console.log(test(3,4));
+
+
+//  if arrow function has only one statement then we can remove curly braces and return keyword. but if it has more than one statement then we have to use curly braces and return keyword.
+
+const add = (a,b) => {
+    return a+b;
+
+}  
+console.log(add(5,3));
+
+// Anonymous function: 
+
+let arr = [1,2,3,4,5]
+let res = arr.map(function(x){
+    return x+2
+})
+console.log(res)
+
+// settimeout uses callback and timedelay as parameter
+
+// setTimeout(()=>{
+//     alert("hello")
+
+// },5000)
+
+// setInterval(()=>{
+//     console.log("sign up")
+
+// },1000)
+
+
+// let date = new  Date();
+// console.log(date)
